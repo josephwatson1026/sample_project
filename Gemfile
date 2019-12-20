@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # ruby '1.9.3'
-gem 'rails', '3.2.11'
+gem 'rails', '4.2.0'
 # gem 'bootstrap-sass', '~> 2.1'
 gem 'pg', '0.14.1'
 gem 'bcrypt-ruby', '3.0.1'
@@ -17,8 +17,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.5'
-  gem 'coffee-rails', '~> 3.2.2'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier',     '~> 1.2.3'
 end
 
@@ -30,11 +30,11 @@ group :test, :development do
 end
 
 group :test do
-  gem 'capybara',  '2.0.2'
+  gem 'capybara', '2.0.2'
   gem 'rb-fsevent',         '0.9.1'
   gem 'growl',              '1.0.3'
   gem 'factory_girl_rails', '4.1.0'
-  gem 'cucumber-rails',     '~> 1.2.1', require: false
+  gem 'cucumber-rails', '~> 1.2.1', require: false
   gem 'database_cleaner',   '0.7.0'
 end
 
